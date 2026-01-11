@@ -1,4 +1,4 @@
-# 🚀 LearningGO — CRUD com Go, Gin, GORM, PostgreSQL e Air
+# 🚀 Go-clean-architecture — CRUD com Go, Gin, GORM, PostgreSQL e Air
 
 Este projeto é um **CRUD simples em Go**, criado com o objetivo de **estudar e aplicar uma arquitetura organizada e escalável**, usando ferramentas muito comuns no ecossistema Go para APIs.
 
