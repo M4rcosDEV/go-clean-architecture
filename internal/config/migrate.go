@@ -6,7 +6,7 @@ import (
 	"github.com/M4rcosDEV/learningGO/internal/user"
 	"gorm.io/gorm"
 )
-
+// Migrate runs the database migrations for all models.
 func Migrate(db *gorm.DB) error { 
 	
 	//All models are included here.

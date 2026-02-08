@@ -35,7 +35,7 @@ func ConnectDatabase() (*gorm.DB, error) {
 	if err := Migrate(db); err != nil {
 		log.Fatal(err)
 	}
-
+	
 	log.Println("Database connected!")
 	return  db, nil
 }

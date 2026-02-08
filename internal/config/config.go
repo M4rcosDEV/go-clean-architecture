@@ -3,10 +3,11 @@ package config
 import (
 	"fmt"
 	"os"
-	"github.com/joho/godotenv"
-)
 
-type Config struct{
+	"github.com/joho/godotenv"
+)	
+
+type Config struct {
 	DBHost     string
 	DBName     string
 	DBPort     string
@@ -16,7 +17,7 @@ type Config struct{
 	DBTimezone string
 }
 
-func Init() (*Config, error){
+func Init() (*Config, error) {
 	error := godotenv.Load()
 
 	if error != nil {
